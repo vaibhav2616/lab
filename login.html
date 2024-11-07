@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Login</title>
+  <link rel="stylesheet" href="login.css">
+</head>
+<body>
+
+  <video autoplay muted loop id="video">
+    <source src="bg.mp4" type="video/mp4">
+    Your browser does not support the video tag.
+  </video>
+
+  <nav>
+    <ul>
+      <li id="logo">
+        <img src="" alt="The Art Galleria Logo" >
+      </li>
+      <li>
+        <a href="https://instagram.com" target="_blank">
+          <img src="ig.jpg" alt="Instagram" />
+        </a>
+      </li>
+      <li>
+        <a href="https://x.com" target="_blank">
+          <img src="x.png" alt="X" />
+        </a>
+      </li>
+      <li>
+        <a href="https://reddit.com" target="_blank">
+          <img src="reddit.png" alt="Reddit" />
+        </a>
+      </li>
+      <li>
+        <a href="contact.html" target="_blank">
+          <img src="contact.png" alt="Contact" />
+        </a>
+      </li>
+    </ul>
+  </nav>
+
+  <div class="wrapper">
+    <div class="form-box">
+      <form action="homepage.html" method="get">
+        <div class="input-container">
+          <input type="text" id="username" placeholder="Enter your Username" required>
+          <label for="username">Username</label>
+          <i class="bx bx-user"></i>
+        </div>
+        <div class="input-container">
+          <input type="password" id="password" placeholder="Enter your Password" required>
+          <label for="password">Password</label>
+          <i class="bx bx-lock"></i>
+        </div>
+        <button type="submit" class="login-button">Login</button>
+      </form>
+      <div class="info-text">
+        <p>Don't have an account? <a href="#" class="register-link">Sign up</a></p>
+      </div>
+    </div>
+  </div>
+
+  <footer class="song">
+    <audio autoplay>
+      <source src="snowman.mp3" type="audio/mpeg">
+      Your browser does not support the audio element.
+    </audio>
+  </footer>
+
+</body>
+</html>
